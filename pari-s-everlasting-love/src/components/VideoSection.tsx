@@ -12,17 +12,17 @@ const videos: VideoItem[] = [
   {
     id: 1,
     title: "Birthday celebration 🎂",
-    src: "/public/1.mp4",
+    src: "/1.mp4",
   },
   {
     id: 2,
     title: "Our silly moments 😂",
-    src: "/public/3.mp4",
+    src: "/3.mp4",
   },
   {
     id: 3,
     title: "Precious memories 💕",
-    src: "/public/7.mp4",
+    src: "/7.mp4",
   },
 ];
 
@@ -145,3 +145,4 @@ const VideoSection = () => {
 };
 
 export default VideoSection;
+
