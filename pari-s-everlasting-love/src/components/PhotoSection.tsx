@@ -14,21 +14,21 @@ interface Photo {
 const photos: Photo[] = [
   {
     id: 1,
-    image: "/public/p1.jpeg",
+    image: "/p1.jpeg",
     caption: "My favorite smile 💕",
     placeholder: "Your beautiful smile",
     position : "object-top",
   },
   {
     id: 2,
-    image: "/public/p2.jpeg",
+    image: "/p2.jpeg",
     caption: "Every picture of you is my happiness",
     placeholder: "Precious moment",
      position : "object-top",
   },
   {
     id: 3,
-    image: "/public/p3.jpeg",
+    image: "/p3.jpeg",
     caption: "You are my safest place",
     placeholder: "Together forever",
      position : "object-top",
@@ -143,3 +143,4 @@ const PhotoSection = () => {
 };
 
 export default PhotoSection;
+
